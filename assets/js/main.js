@@ -11,7 +11,7 @@ function movieThembnail(arry) {
           src="${IMG_PATH}${ele.poster_path}"
           alt="${ele.original_title}"
           title="${ele.original_title}"
-          class="img-fluid"
+          class="img-fluid cardImg"
         />
         <figcaption class="fig p-3 ">
           <div class="row align-items-center">

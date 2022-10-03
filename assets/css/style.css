@@ -11,6 +11,11 @@ body{
 
     
 }
+.cardImg{
+    height: 380px;
+    width: 100%;
+    object-fit:cover;
+}
 .search{
     background-color:#701068eb ;
     outline: none;
