@@ -48,3 +48,9 @@ body{
     /* background-color:#701068eb ; */
     object-fit: cover;
 }
+.filmName{
+    height:20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
