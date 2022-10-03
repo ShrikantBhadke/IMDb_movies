@@ -30,7 +30,7 @@ function movieThembnail(arry) {
           </div>
         </figcaption>
         <div class="overview text-center">
-          <h4>Overview</h4>
+          <h4 class="mt-3">${ele.original_title}</h4>
           <p>
             ${ele.overview}
           </p>
