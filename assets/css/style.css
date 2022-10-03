@@ -1,0 +1,50 @@
+body{
+    background-color: #b265d1eb;
+}
+.header, .imgInfo , .rating{
+    background-color: #b265d1eb;
+    color:#701068eb;
+}
+.fig{
+    background-color:#701068eb ;
+    overflow: auto;
+
+    
+}
+.search{
+    background-color:#701068eb ;
+    outline: none;
+    border-radius: 45px;
+}
+.search::placeholder{
+    background-color: #701068eb;
+    color: #fff;
+    outline: none;
+}
+.imgInfo {
+    margin-bottom: 0;
+    position: relative;
+    overflow:hidden;
+}
+.overview{
+    /* overflow-y: none; */
+    position: absolute;
+    background-color:#ffffff;
+    bottom:0;
+    left:0;
+    right:0;
+    transition: all .3s ease-in-out;
+    /* overflow-y: auto; */
+    transform:translateY(101%);
+    height: 75%;
+}
+.imgInfo:hover .overview{
+    transform:translateY(0%);
+}
+
+.cardheight{
+    /* min-height: 480px; */
+    overflow-y: hidden;
+    /* background-color:#701068eb ; */
+    object-fit: cover;
+}
